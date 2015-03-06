@@ -1,0 +1,110 @@
+body{
+	margin: 0;
+}
+
+.masthead {
+  /* image */
+	background: url('http://i784.photobucket.com/albums/yy126/vleong2332/Background%20images/aged_wood.jpg~original') #222222;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	/* layout */
+	padding: 3.5em 0;
+	border-top: 1em solid #3C3231;
+	margin: 0;
+}
+
+.masthead-hello, .masthead-name {
+  /* layout */
+	text-align: center;
+	/* typography */
+	font-family: "Open Sans", "Trebuchet MS", sans-serif;
+	color: #fff6dc;
+}
+
+.masthead-hello {
+  /* layout */
+	margin-bottom: 0;
+	/* typography */
+	font-size: 2.5em;
+}
+
+.masthead-name {
+  /* layout */
+	margin-top: -0.1em;
+	/* typography */
+	font-size: 9em;
+	letter-spacing: 0.01em;
+	text-shadow: 7px 7px 7px #222222;
+}
+
+section {
+  /* layout */
+	max-width: 50em;
+	margin: 2.5em auto;
+}
+
+h2, h3 {
+  /* typography */
+	font-family: "Segoe UI", "Gentium Book Basic", Georgia, serif;
+}
+
+h2 {
+  /* specific typography */
+	font-size: 3em;
+	color: #7E4B3E;
+}
+
+h3 {
+  /* specific typography */
+	font-size: 1.25em;
+}
+
+section p {
+  /* typography */
+	font-family: "Century Gothic";
+	font-size: 1.1em;
+	letter-spacing: 0.01em;
+}
+
+footer {
+  /* layout */
+	padding: 3em 0;
+	background-color: #C79068;
+	/*typography */
+	color: #fff6dc;
+	font-family: "Century Gothic";
+	font-size: 0.9em;
+	/*max-width: 50em;
+	margin: auto;*/
+	<!-- Recommended by curriculum, but makes the footer only in the middle -->
+}
+
+footer p {
+  /* layout */
+	text-align: center
+}
+
+ul {
+  /* layout */
+	padding: 0;
+  text-align: center;
+}
+
+li {
+  /* layout */
+	display: inline-block;
+	margin: 0.5em;
+}
+
+a {
+  /* typography */
+	text-decoration: none;
+	color: #000000;
+}
+
+.social > li > a > img {
+  /* layout */
+	width: 2em;
+	height: 2em;
+}
